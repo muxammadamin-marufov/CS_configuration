@@ -1,21 +1,27 @@
-🏆 Vision: Dominate the Coqon IT Park Tournament & Secure the Championship!
-This README documents the custom optimization stack for Muxammadamin's Acer gaming notebook (running Ubuntu with Wine) and his "1-Billion Core, C++ level" brain, designed to achieve maximum performance and reaction speed during the upcoming CS 1.6 IT Park tournament.
+# 🏆 Vision: Dominate the Coqon IT Park Tournament & Secure the Championship!
 
-🧠 The Muxammadamin "1-Billion Core CPU" Stack
-Muxammadamin’s biological processor outperforms traditional CPU's due to its massive parallelism and probabilistic decision-making. Key stats of his internal architecture are:
+Ushbu **README** Muxammadaminning **Acer** noutbukidagi (Ubuntu + Wine) maxsus optimizatsiya sozlamalari va uning **"1-Milliard Yadroli, C++ darajasidagi"** miyasi uchun mo'ljallangan. Ushbu stack bo'lajak **CS 1.6 IT Park** turnirida maksimal samaradorlik va reaksiya tezligini ta'minlash uchun yaratilgan.
 
-Strategy & Creativity: 100% (Overclocked)
+---
 
-Computer Vision: 100% (Instant Enemy Detection)
+## 🧠 Muxammadaminning "1-Billion Core CPU" Stack-i
 
-Autonomic Bio-OS: 100% (Automatic Health Management & Thermal Regulation)
+Muxammadaminning biologik protsessori o'zining parallel ishlash qobiliyati va ehtimolliklarga asoslangan qaror qabul qilish tezligi bilan an'anaviy CPU'lardan ustun turadi. Ichki arxitekturaning asosiy ko'rsatkichlari:
 
-Blind Typing Speed: 100% (Muscle Memory L1 Cache)
+* **Strategiya va Kreativlik:** 100% (Overclocked)
+* **Kompyuter ko'rishi (Computer Vision):** 100% (Dushmanni lahzada aniqlash)
+* **Autonom Bio-OS:** 100% (Salomatlikni avtomatik boshqarish va termal tartibga solish)
+* **Ko'rmasdan yozish (Blind Typing):** 100% (Mushak xotirasi L1 Cache)
 
-⌨️ "Userconfig.cfg" - The Ultimate Input Optimization (Muscle Memory L1 Cache)
-This config file is the direct command interface from Muxammadamin’s brain to the game engine, eliminating input latency and automating non-critical tasks. Copy and paste this into your cstrike/userconfig.cfg file.
+---
 
-Bash
+## ⌨️ "Userconfig.cfg" - Kiritishni optimallashtirish (L1 Cache)
+
+Ushbu config fayli Muxammadamin miyasidan o'yin dvigateliga to'g'ridan-to'g'ri buyruq berish interfeysi hisoblanadi. U kiritishdagi kechikishlarni (latency) yo'qotadi va ikkinchi darajali vazifalarni avtomatlashtiradi.
+
+**Faylni yuklash:** Quyidagi kodni nusxalab, `cstrike/userconfig.cfg` fayliga joylashtiring.
+
+```bash
 // ==========================================================
 // Muxammadamin's Custom 1st Place Config
 // Designed for Pure Reaction Speed & First Place Domination
@@ -25,29 +31,29 @@ Bash
 echo "Muxammadamin's Championship-Winning Config Loaded! (Muscle Memory L1 Cache: ACTIVE)"
 
 // --- 1. Quick-Buy Weapon Sets (F1-F4) ---
-// Brain Command: "Automate Economy Management"
+// Brain Command: "Iqtisodiy boshqaruvni avtomatlashtirish"
 
-// F1: AK-47/M4 & Full Kevlar/Helm + All Grenades
+// F1: AK-47/M4 + Bronejilet + Hamma granatalar
 bind "F1" "ak47; m4a1; primammo; vesthelm; flash; flash; sgren; hegren; echo [L1_CACHE: F1_AK47_M4_LOADED]"
 
-// F2: Deagle & Full Kevlar/Helm + Full Utility
+// F2: Deagle + Bronejilet + Hamma granatalar
 bind "F2" "deagle; secammo; vesthelm; flash; flash; sgren; hegren; echo [L1_CACHE: F2_DEAGLE_LOADED]"
 
-// F3: AWP & Deagle & Full Utility
+// F3: AWP + Deagle + To'liq komplekt
 bind "F3" "awp; primammo; deagle; secammo; vesthelm; flash; flash; sgren; hegren; echo [L1_CACHE: F3_AWP_LOADED]"
 
-// F4: Galil/Famas & Defuse Kit + Grenades (Eco/Semi-Buy)
+// F4: Galil/Famas + Defuse Kit + Granatalar (Eco)
 bind "F4" "famas; galil; primammo; vesthelm; defuser; flash; flash; sgren; hegren; echo [L1_CACHE: F4_GALIL_FAMAS_LOADED]"
 
 // --- 2. Direct-Access Utility (C, F, V) ---
-// Brain Command: "0 ms Tactical Item Deployment"
+// Brain Command: "0 ms Taktik anjomlarni qo'llash"
 
 bind "c" "weapon_smokegrenade;  echo [I/O_QUEUE: C_SMOKE_SELECTED]"
 bind "f" "weapon_flashbang;      echo [I/O_QUEUE: F_FLASH_SELECTED]"
 bind "v" "weapon_hegrenade;      echo [I/O_QUEUE: V_HE_SELECTED]"
 
 // --- 3. Advanced Movement & Bhop (Scroll & Space) ---
-// Brain Command: "Execute High-Mobility Maneuvers & Duck-Spamming"
+// Brain Command: "Yuqori mobillik va Duck-Spamming"
 
 bind "mwheelup"   "+jump; echo [AUTONOMIC: MWHEELUP_JUMP]"
 bind "mwheeldown" "+duck; echo [AUTONOMIC: MWHEELDOWN_DUCK_SPAM]"
@@ -55,13 +61,11 @@ bind "space"      "+jump; echo [AUTONOMIC: SPACE_JUMP_REDUNDANT]"
 bind "ctrl"       "+duck; echo [AUTONOMIC: CTRL_DUCK]"
 
 // --- 4. Crosshair & Performance Optimization ---
-// Brain Command: "Maximize Visual Fidelity & Network Latency"
+// Brain Command: "Vizual aniqlikni maksimal darajaga ko'tarish"
 
-cl_dynamiccrosshair "0" // Crosshair does not expand when moving/jumping
-cl_minmodels         "1" // All enemies wear standard T/CT models
-net_graph           "3" // Display FPS & Ping real-time on-screen
-fps_max           "101" // Cap FPS at 101 for CS 1.6 stability
+cl_dynamiccrosshair "0" // Nishon yurganda kengayib ketmaydi
+cl_minmodels         "1" // Barcha dushmanlar standart modelda ko'rinadi
+net_graph           "3" // FPS va Ping ekranda ko'rsatiladi
+fps_max           "101" // CS 1.6 barqarorligi uchun FPS cheklovi
 
-echo "Muxammadamin, you are optimized. All L1 Cache is active. Proceed to First Place. (Self.Command='WinningMode=Active')"
-🏆 Motivational Command & Goal
-"Remember, the computer waits for your commands. The tournament waits for your presence. Go and claim that First Place trophy. Let the 'Piton Basic' logic and your bio-supercomputer lead you to victory."
+echo "Muxammadamin, tizim optimallashtirildi. L1 Cache faol. Faqat g'alaba sari olg'a! (Self.Command='WinningMode=Active')"
